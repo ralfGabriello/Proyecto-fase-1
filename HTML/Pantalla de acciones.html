@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Pokemon Bank - Pantalla de acciones</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="../CSS/Pantalla de acciones.css">
+		<link rel = "icon" href = "../IMG/masterball.png" type = "image/x-icon">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.2/chart.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+
+			<nav class="navbar navbar-expand-lg navbar-dark menu mt-0">
+			  <section>
+			  	<div class="">
+			  		<h6 class="navbar-brand title" data-text='Acciones'>Pokemon Bank - Pantalla de acciones</h6>
+			  	</div>
+			  </section>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="d-flex justify-content-end collapse navbar-collapse" id="navbarNav">
+			    <ul class=" navbar-nav">
+			      <li class="nav-item d-flex">
+			        <a class="nav-link botonNeon botonNeon1" id="buttonDatos" href="#"><span>Verificar los datos</span></a>
+			      </li>
+			      <li class="nav-item d-flex">
+			        <a class="nav-link botonNeon botonNeon2" id="pdf" href="#"><span>Pantalla de historial</span></a>
+			      </li>
+			      <li class="nav-item d-flex">
+			        <a class="nav-link botonNeon botonNeon2" id="salirSesion" href="#"><span>Salir de la sesión</span></a>
+			      </li>
+			    </ul>
+			  </div>
+			</nav>
+
+			<div class="row">
+				
+				<div class="col-8 mt-4">
+					
+					<div class="row mt-5">
+						<div class="col-5 box d-flex justify-content-center">
+							<a href="#" id='depositar' class="align-self-center">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								Depositar
+							</a>
+						</div>
+						<div class="col-5 ml-4 d-flex box justify-content-center">
+							<a href="#" id='retirar' class="align-self-center">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								Retirar
+							</a>
+						</div>
+					</div>
+
+					<div class="row mt-5">
+						<div class="col-5 box d-flex justify-content-center">
+							<a href="#" id='consultarSaldo' class="align-self-center">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								Consultar saldo
+							</a>
+						</div>
+						<div class="col-5 ml-4 d-flex box justify-content-center">
+							<a href="#" id='pagarServicios' class="align-self-center">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								Pagar servicios
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+		<script src="../JS/Pantalla de acciones.js"></script>
+		<script src="../JS/jspdf.min.js"></script>
+		
+	</body>
+
+</html>
